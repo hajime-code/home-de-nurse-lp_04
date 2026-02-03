@@ -3511,7 +3511,17 @@ button {
 }
 
 .hden-flow-container {
-  margin-bottom: 140px;
+  margin-bottom: 70px;
+}
+
+.hden-text-lead,
+.hden-target-list li,
+.hden-text-end {
+  font-size: 24px;
+}
+
+.hden-simple-layout {
+  margin-bottom: 80px;
 }
 
 .hden-flow-circle {
