@@ -374,6 +374,10 @@ button {
   text-align: left;
 }
 
+.hden-story-text .small {
+  font-size: 18px;
+}
+
 .hden-story-sub-h {
   font-family: "Zen Maru Gothic", sans-serif;
   font-size: 1.5em;
