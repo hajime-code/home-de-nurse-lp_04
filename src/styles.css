@@ -371,11 +371,11 @@ button {
   font-size: 20px;
   line-height: 2;
   color: #444;
-  text-align: left;
+  /* text-align: left; */
 }
 
 .hden-story-text .small {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .hden-story-sub-h {
@@ -394,7 +394,7 @@ button {
   width: 100%;
   height: auto;
   border-radius: 999px;
-  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.05));
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.05));
 }
 
 .hden-story-line {
@@ -414,13 +414,14 @@ button {
 
 /* スマホ対応 */
 @media (max-width: 768px) {
-  .hden-story-block, 
+
+  .hden-story-block,
   .hden-story-block.hden-reverse {
     flex-direction: column;
     text-align: center;
     gap: 30px;
   }
-  
+
   .hden-story-image {
     order: -1;
   }
@@ -431,6 +432,7 @@ button {
     background: repeating-linear-gradient(to bottom, #007bff, #007bff 5px, transparent 5px, transparent 10px);
     margin: 20px auto;
   }
+
   .hden-story-line svg {
     display: none;
   }
@@ -824,7 +826,7 @@ button {
   font-size: 20px;
   letter-spacing: 0.05em;
   border: 1px solid #f9a825;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
 }
 
 .hden-text-end {
@@ -843,6 +845,7 @@ button {
     flex-direction: column;
     align-items: center;
   }
+
   .hden-target-list li {
     width: 100%;
   }
@@ -2788,7 +2791,7 @@ button {
 
 .hden-cta-label {
   color: #f4a442;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 800;
   margin-bottom: 15px;
 }
@@ -2967,7 +2970,7 @@ button {
 /* =========================
    PC レイアウト
    ========================= */
-   
+
 @media (min-width: 769px) {
 
   .pc-only-cta-container {
@@ -3502,145 +3505,163 @@ button {
     font-size: 46px;
   }
 
-.hden-top-houses {
-  margin-top: 60px;
-}
+  .hden-top-houses {
+    margin-top: 60px;
+  }
 
-.hden-intro-text {
-  font-size: 1.8rem;
-}
+  .hden-intro-text {
+    font-size: 1.8rem;
+  }
 
-.hden-flow-container {
-  margin-bottom: 70px;
-}
+  .hden-flow-container {
+    margin-bottom: 70px;
+  }
 
-.hden-text-lead,
-.hden-target-list li,
-.hden-text-end {
-  font-size: 24px;
-}
+  .hden-text-lead,
+  .hden-target-list li,
+  .hden-text-end {
+    font-size: 24px;
+  }
 
-.hden-simple-layout {
-  margin-bottom: 80px;
-}
+  .hden-simple-layout {
+    margin-bottom: 80px;
+  }
 
-.hden-flow-circle {
-  width: 200px;
-  height: 200px;
-}
+  .hden-flow-circle {
+    width: 200px;
+    height: 200px;
+  }
 
-.hden-card-body {
-  font-size: 24px;
-}
+  .hden-card-body {
+    font-size: 24px;
+  }
 
-.hden-card-icon-wrap {
-  width: 150px;
-  height: 150px;
-  top: -90px;
-}
+  .hden-card-icon-wrap {
+    width: 150px;
+    height: 150px;
+    top: -90px;
+  }
 
-.hden-feature-card {
-  margin-bottom: 110px;
-}
+  .hden-feature-card {
+    margin-bottom: 110px;
+  }
 
-.hden-note-label {
-  font-size: 36px;
-}
+  .hden-note-label {
+    font-size: 36px;
+  }
 
-.hden-note-content {
-  font-size: 24px;
-  line-height: 2;
-}
+  .hden-note-content {
+    font-size: 24px;
+    line-height: 2;
+  }
 
-.hden-note-paper {
-  padding: 46px 20px;
-}
+  .hden-note-paper {
+    padding: 46px 20px;
+  }
 
-.hden-building-img {
-  width: 150px;
-  right: -40px;
-}
+  .hden-building-img {
+    width: 150px;
+    right: -40px;
+  }
 
-.tp-card-title {
-  margin-bottom: 36px;
-}
+  .tp-card-title {
+    margin-bottom: 36px;
+  }
 
-.tp-card-body ul li {
-  font-size: 24px;
-}
+  .tp-card-body ul li {
+    font-size: 24px;
+  }
 
-.tp-rec-text-title {
-  font-size: 36px;
-}
+  .tp-rec-text-title {
+    font-size: 36px;
+  }
 
-.tp-text-stroke {
-  letter-spacing: .2em;
-  -webkit-text-stroke: 6px var(--stroke);
-}
+  .tp-text-stroke {
+    letter-spacing: .2em;
+    -webkit-text-stroke: 6px var(--stroke);
+  }
 
-.hden-flow-step {
-  max-width: 650px;
-}
+  .hden-flow-step {
+    max-width: 650px;
+  }
 
-.hden-flow-title {
-  font-size: 46px;
-}
+  .hden-flow-title {
+    font-size: 46px;
+  }
 
-.hden-flow-section {
-  margin-top: 90px;
-}
+  .hden-flow-section {
+    margin-top: 90px;
+  }
 
-.hden-cta-label {
-  font-size: 36px;
-}
+  .hden-cta-label {
+    font-size: 36px;
+  }
 
-.hden-cta-lead {
-  font-size: 24px;
-}
+  .hden-cta-lead {
+    font-size: 24px;
+  }
 
-.hden-form-label {
-  font-size: 24px;
-}
+  .hden-form-label {
+    font-size: 24px;
+  }
 
-.hden-badge-req {
-  font-size: 14px;
-}
+  .hden-badge-req {
+    font-size: 14px;
+  }
 
-.hden-submit-btn {
-  font-size: 28px;
-  font-weight: 500;
-  height: 80px;
-}
+  .hden-submit-btn {
+    font-size: 28px;
+    font-weight: 500;
+    height: 80px;
+  }
 
-.hden-tel-wrapper {
-  max-width: 650px;
-}
+  .hden-tel-wrapper {
+    max-width: 650px;
+  }
 
-.hden-tel-label-inner,
-.hden-tel-time {
-  font-size: 24px;
-}
+  .hden-tel-label-inner,
+  .hden-tel-time {
+    font-size: 24px;
+  }
 
-.tp-message-card {
-  align-items: flex-start;
-}
+  .tp-message-card {
+    align-items: flex-start;
+  }
 
-.tp-message-photo-wrap {
-  margin-top: 80px;
-}
+  .tp-message-photo-wrap {
+    margin-top: 80px;
+  }
 
-.hden-story-text {
-  font-size: 24px;
-}
+  .hden-story-text {
+    font-size: 22px;
+  }
 
-.hden-story-section .wrap {
-  max-width: 850px;
-  margin: 0 auto;
-}
+  .hden-story-text .small {
+    font-size: 20px;
+  }
 
-.hden-story-text {
+  .hden-story-section .wrap {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  /* .hden-story-text {
   text-align: left;
+} */
+
 }
-  
+
+/* 調整 end */
+
+
+/* PCでは表示（改行する） */
+.br-pc {
+  display: inline;
 }
-  /* 調整 end */
+
+/* スマホでは非表示（改行しない） */
+@media (max-width: 767px) {
+  .br-pc {
+    display: none;
+  }
+}
